@@ -69,20 +69,26 @@ header {
 	width: 1000px;
 	margin: 0 auto;
 	padding: 20px;
+	position: relative;
 }
 
 header nav {
 	display: inline-block;
+	position: absolute;
+	left: -40px;
+	top: 30px;
 }
 
 header nav a {
 	text-decoration: none;
 	color: gray;
-	margin: 10px 30px;
+	margin: 10px 40px;
 }
 
 img.logo {
-	margin: 10px 0 0 20px;
+	position: absolute;
+	right: 0;
+	top: 20px;
 }
 
 div#page-container {
@@ -90,6 +96,42 @@ div#page-container {
 	margin: 0 auto;
 }
 
+.intro {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	border-bottom: 2px solid black;
+}
+
 div#title {
 	display: inline-block;
+	position: absolute;
+	left: 200px;
+	top: 160px;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	line-height: 0.9;
+}
+
+.button {
+	text-align: center;
+	width: 130px;
+	margin: 0 auto;
+	padding: 4px 0;
+	border: 1px solid black;
+}
+
+.intro img {
+	position: absolute;
+	top: 80px;
+	right: 0;
+}
+
+.two-column {
+	width: 49%;
+	display: inline-block;
+	margin: 30px 20px;
 }
